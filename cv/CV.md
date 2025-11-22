@@ -58,7 +58,7 @@ I work best in environments where I can focus deeply, take ownership of backend 
 
 ---
 
-## Selected Project — CleverShares (2023–2025)
+## Selected Project — CleverShares (2023–2026)
 
 **Role:** Lead Backend Engineer  
 **Tech:** C#, .NET, EF Core, SQL Server, React (admin)  
