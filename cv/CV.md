@@ -93,7 +93,7 @@ Designed and built the entire backend architecture for a stock discovery platfor
 
 ## Earlier Experience
 
-**Founder & Lead Developer — ServiceBrewing (2010–2023)**
+**Founder & Lead Developer — ServiceByen (2010–2023)**
 Built and operated a B2C service marketplace (similar to MyBuilder), used by homeowners and tradespeople. Designed and developed the entire platform in C# / MVC.NET, including booking flows, worker onboarding, profiles, messaging, payments logic, search, SEO structures, and admin tools. Managed product decisions, infrastructure, customer issues, and long-term system maintenance.
 
 **Backend Developer — Den Blå Avis (eBay Classifieds) (2006–2010)**  
