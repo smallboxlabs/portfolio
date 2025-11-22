@@ -1,4 +1,4 @@
-# Jack Goncik — Backend Developer (C# / .NET)
+# Jack Gonchik — Backend Developer (C# / .NET)
 
 **Email:** hello.smallbox@proton.me  
 **GitHub:** https://github.com/smallboxlabs  
