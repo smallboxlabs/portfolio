@@ -93,11 +93,15 @@ Designed and built the entire backend architecture for a stock discovery platfor
 
 ## Earlier Experience
 
-**Backend Developer — Demblau Ivs**  
-Worked on admin dashboards, backend systems, and business logic in C# and VB.NET.
+**Founder & Lead Developer — ServiceBrewing (2010–2023)**
+Built and operated a B2C service marketplace (similar to MyBuilder), used by homeowners and tradespeople. Designed and developed the entire platform in C# / MVC.NET, including booking flows, worker onboarding, profiles, messaging, payments logic, search, SEO structures, and admin tools. Managed product decisions, infrastructure, customer issues, and long-term system maintenance.
 
-**Backend Developer — DynamicWeb**  
-Developed features for .NET-based enterprise CMS and ecommerce platforms.
+**Backend Developer — Den Blå Avis (eBay Classifieds) (2006–2010)**  
+Worked on the AdManager platform, enabling businesses to create, manage, and optimize ads on Den Blå Avis. Implemented complex object-oriented backend features using C# and early ORM technologies. Contributed to a sophisticated architecture with dependency injection, layered design, business logic modeling, and high-traffic production systems.
+
+
+**Backend Developer — DynamicWeb (2004)**  
+Developed backend modules for a large .NET-based CMS and ecommerce platform, including integrations, data modeling, and features for major Danish clients in the housing and real-estate sector.
 
 ---
 
