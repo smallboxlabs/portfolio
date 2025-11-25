@@ -1,133 +1,149 @@
-# Jack Gonchik — Backend Developer (C# / .NET)
+# Jack Gonchik — Senior Backend Developer (C# / .NET)
 
-**Email:** hello.smallbox@proton.me  
-**GitHub:** https://github.com/smallboxlabs  
-**Location:** Denmark (relocating within EU, remote-first)  
-**Availability:** Part-time (20–30 hours/week), remote only  
+**Email:** [hello.smallbox@proton.me](mailto:hello.smallbox@proton.me)
+**GitHub:** [https://github.com/smallboxlabs](https://github.com/smallboxlabs)
+**Location:** Denmark → relocating within EU (remote-first)
+**Availability:** Part-time (20–30 hours/week), remote only
 
 ---
 
 ## Profile
 
-I am a backend developer with 10+ years of experience building production systems in **C#**, **.NET**, **REST APIs**, **domain-driven architecture**, and **clean, maintainable backend codebases**.
+I am a backend-focused C#/.NET developer with more than 10 years of professional experience building production systems, large-scale architectures, and long-term maintainable platforms.
 
-I work best in environments where I can focus deeply, take ownership of backend features, and deliver high-quality work with minimal overhead. My strongest areas include:
+I thrive in **structured, slow-paced engineering teams** where roles are clearly defined, onboarding is deliberate, and backend developers can focus deeply on backend logic while DevOps, infrastructure, and deployment pipelines are handled by the appropriate specialists.
 
-- **Architecture & system design**  
-- **REST API design & backend services**  
-- **Entity Framework Core**  
-- **Complex business logic & data modeling**  
-- **Authentication & authorization flows**  
-- **Integration with external APIs**  
-- **Layered system architecture (Controllers → Facades → Services → Repositories)**  
+I work best when I can take ownership of backend features, reason deeply about systems, and deliver clean, reliable solutions without unnecessary chaos or unrealistic expectations. Once onboarded, I become extremely efficient and productive.
 
 ---
 
-## Core Skills
+## Strengths
 
-**Languages & Frameworks**
-
-- C#, .NET 6/7  
-- ASP.NET Core  
-- MVC / REST  
-- LINQ  
-- Entity Framework Core  
-
-**Architecture & Patterns**
-
-- Layered architecture  
-- Domain-driven design  
-- DTO pipelines  
-- Dependency Injection  
-
-**Data & Integrations**
-
-- MS SQL Server  
-- API design & integration  
-- TwelveData integration  
-
-**Frontend Support**
-
-- React (admin tooling)  
-- TypeScript/JavaScript  
-
-**Other**
-
-- Git & GitHub  
-- System reasoning & documentation  
+* Deep-focus backend engineering
+* Strong architectural reasoning and system design
+* Clear communicator; calm, stable working style
+* Excellent at long-term code quality and maintainability
+* Independent problem solver within defined boundaries
+* Learns adjacent technologies gradually when expectations are aligned
 
 ---
 
-## Selected Project — CleverShares (2023–2026)
+## Technical Skills
 
-**Role:** Lead Backend Engineer  
-**Tech:** C#, .NET, EF Core, SQL Server, React (admin)  
+### **Languages & Frameworks**
 
-Designed and built the entire backend architecture for a stock discovery platform. Key components:
+* C#, .NET 6/7
+* ASP.NET Core / MVC / REST
+* LINQ
+* Entity Framework Core
 
-### Authentication & Identity
-- Custom JWT auth system  
-- Role-based permissions  
-- Impersonation support  
+### **Architecture & Patterns**
 
-### Stock Data System
-- API endpoints & DTO models  
-- Multi-level business logic  
-- Exchange data, profiles, metrics  
+* Layered architecture (Controller → Facade → Service → Repository)
+* Domain-driven design principles
+* DTO pipelines
+* Dependency Injection
 
-### Metrics Engine
-- 70+ financial metrics with metadata  
-- Tooltip generator  
-- Multi-language architecture  
+### **Data & Integrations**
 
-### Admin Dashboard
-- System health  
-- User metrics  
-- Activity logs  
-- Exceptions overview  
+* MS SQL Server
+* API design & integration
+* TwelveData integration
 
-### Integrations
-- TwelveData API (prices, fundamentals, profiles, logos)  
+### **Frontend Support**
+
+* React (admin tooling)
+* TypeScript/JavaScript
+
+### **Tools & Collaboration**
+
+* Git & GitHub
+* Scrum (4 years in a mature environment)
+* Agile ceremonies, estimation, sprint planning
+
+### **DevOps Clarification**
+
+> **My experience is purely backend-focused.** DevOps, Docker, CI/CD, deployment pipelines, and infrastructure have not been part of my professional role so far. I am open to learning these gradually if needed, but expectations should match my background.
 
 ---
 
-## Earlier Experience
+## Experience
 
-**Founder & Lead Developer — ServiceByen (2010–2023)**
-Built and operated a B2C service marketplace (similar to MyBuilder), used by homeowners and tradespeople. Designed and developed the entire platform in C# / MVC.NET, including booking flows, worker onboarding, profiles, messaging, payments logic, search, SEO structures, and admin tools. Managed product decisions, infrastructure, customer issues, and long-term system maintenance.
+### **Lead Backend Engineer — CleverShares (2023–2026)**
 
-**Backend Developer — Den Blå Avis (eBay Classifieds) (2006–2010)**  
-Worked on the AdManager platform, enabling businesses to create, manage, and optimize ads on Den Blå Avis. Implemented complex object-oriented backend features using C# and early ORM technologies. Contributed to a sophisticated architecture with dependency injection, layered design, business logic modeling, and high-traffic production systems.
+**Tech:** C#, .NET, EF Core, SQL Server, React (admin)
+Designed and built the entire backend architecture for a stock analysis and discovery platform. Work included:
 
+* Authentication (custom JWT, roles, impersonation)
+* Complex financial metric engine
+* REST API design and implementation
+* Business logic modeling
+* Admin system with logs, metrics, and system health
+* Integration with TwelveData for prices, fundamentals, and profiles
 
-**Backend Developer — DynamicWeb (2004)**  
-Developed backend modules for a large .NET-based CMS and ecommerce platform, including integrations, data modeling, and features for major Danish clients in the housing and real-estate sector.
+---
+
+### **Founder & Lead Developer — ServiceByen.dk (2010–2023)**
+
+Built and operated a full service marketplace used across Denmark. Entire backend architecture designed and implemented in C# / MVC.NET.
+
+Responsibilities included:
+
+* Booking flows, messaging, payments logic, onboarding
+* Worker and homeowner profiles
+* Business rules and real-world constraints
+* Search systems & SEO structures
+* Admin tools and customer support workflows
+
+ServiceByen.dk was a long-term production platform that grew directly out of experience gained at Den Blå Avis.
+
+---
+
+### **Backend Developer — Den Blå Avis (eBay Classifieds) (2006–2010)**
+
+Worked on the AdManager platform in a **structured 8-person engineering team** with:
+
+* Daily Scrum
+* Sprint planning & complexity estimation
+* Clear division of roles
+* Dedicated DevOps and deployment teams
+
+Delivered backend features for a high-traffic system with strong architecture, dependency injection, object-oriented modeling, and long-term maintainability.
+
+**Scrum Master training completed** (1-day course and internal certification).
+
+---
+
+### **Backend Developer — DynamicWeb (2004)**
+
+Worked on backend modules for a .NET-based CMS/ecommerce system.
 
 ---
 
 ## Work Preferences
 
-- Remote only  
-- 20–30 hours per week  
-- Deep-focus backend work  
-- Clear communication  
-- Minimal meeting overhead  
-- Long-term, stable collaboration  
-
-I offer a competitive rate relative to senior-level skill because I prefer part-time roles that support focused work and personal flexibility.
+* Remote only
+* 20–30 hours per week
+* Backend-focused role
+* Clear expectations
+* Medium or large engineering teams
+* Minimal context switching
+* Calm environments with defined processes
+* Long-term collaboration
 
 ---
 
 ## Languages
 
-- English — fluent  
-- Danish — fluent  
-- Polish — intermediate (spoken), limited reading/writing
-- German — beginner  
+* **English** — fluent
+* **Danish** — fluent
+* **Polish** — conversational
+* **German** — beginner
 
 ---
 
 ## Summary
 
-I build clean, maintainable backend systems with strong architecture, reliable delivery, and deep understanding of domain logic. I’m ideal for small teams or startups needing an autonomous, high-quality backend engineer at a flexible schedule.
+I build clean, maintainable backend systems with strong architecture and deep understanding of domain logic. I’m looking for a stable, part-time remote role in a structured engineering team where I can contribute clear, reliable, backend-focused work without chaotic multi-role expectations.
 
+If you’re looking for a dependable senior backend developer who thrives in defined, well-run teams, I’d be happy to discuss how I can contribute.
