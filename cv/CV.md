@@ -1,141 +1,80 @@
 # Jack Gonchik — Senior Backend Developer (C# / .NET)
 
 **Email:** [hello.smallbox@proton.me](mailto:hello.smallbox@proton.me)
-**GitHub:** [https://github.com/smallboxlabs](https://github.com/smallboxlabs)
-**Location:** Denmark → relocating within EU (remote-first)
-**Availability:** Part-time (20–30 hours/week), remote only
+**Website:** [stocksignal.me](https://stocksignal.me)
+**GitHub:** [github.com/smallboxlabs/portfolio](https://github.com/smallboxlabs/portfolio)
+**Location:** Denmark (open to relocation within EU)
+**Availability:** 20–40 hours/week, remote
 
 ---
 
 ## Profile
 
-I am a backend-focused C#/.NET developer with more than 10 years of professional experience building production systems, large-scale architectures, and long-term maintainable platforms.
+Senior C#/.NET developer with **15+ years** of professional experience delivering production backend systems — from high-traffic classifieds platforms to financial data engines.
 
-I thrive in **structured, slow‑paced engineering teams** where roles are clearly defined, onboarding is deliberate, and backend developers can focus deeply on backend logic while DevOps, infrastructure, and deployment pipelines are handled by the appropriate specialists.
-
-I work best when I can take ownership of backend features, reason deeply about systems, and deliver clean, reliable solutions without unnecessary chaos or unrealistic expectations. Once onboarded, I become extremely efficient and productive.
-
----
-
-## Strengths
-
-* Deep‑focus backend engineering
-* Strong architectural reasoning and system design
-* Clear communicator; calm, stable working style
-* Excellent at long‑term code quality and maintainability
-* Independent problem solver within defined boundaries
-* Learns adjacent technologies gradually when expectations are aligned
-
----
-
-## Technical Skills
-
-### **Languages & Frameworks**
-
-* C#, .NET 6/7
-* ASP.NET Core / MVC / REST
-* LINQ
-* Entity Framework Core
-
-### **Architecture & Patterns**
-
-* Layered architecture (Controller → Facade → Service → Repository)
-* Domain-driven design principles
-* DTO pipelines & API response models
-* Dependency Injection (ASP.NET Core DI)
-* Modular business logic design
-
-### **API & Backend Engineering**
-
-* REST API development (40+ production endpoints)
-* Pagination, filtering, fuzzy search & time-range queries
-* JSON serialization/deserialization (System.Text.Json)
-* Validation pipelines (`Validator.TryValidateObject`, data annotations)
-* Asynchronous programming (async/await)
-* Role-based authorization (ASP.NET Core Identity)
-* Enum-driven API design (type-safe filtering)
-
-### **Data & Integrations**
-
-* MS SQL Server
-* TwelveData API
-* Price/History/Fundamental data modeling
-
-### **Tools & Collaboration**
-
-* Git & GitHub
-* Scrum (4 years at eBay Classifieds)
-* Agile ceremonies, estimation, sprint planning
-
-### **DevOps Clarification**
-
-> **My experience is backend-focused.** DevOps, Docker, CI/CD, and infrastructure were handled by dedicated teams in my previous roles. I’m open to learning these gradually if needed, but expectations should match my experience.
+I deliver stable, maintainable backend systems in structured engineering environments with clear ownership. I focus on clean domain modeling, testable architecture, and long-term system maintainability.
 
 ---
 
 ## Experience
 
-### **Lead Backend Engineer — CleverShares (2023–2026)**
+### Founder & Lead Engineer — StockSignal / CleverShares
 
-**Tech:** C#, .NET, EF Core, SQL Server, React (admin)
-Designed and built the entire backend architecture for a stock analysis and discovery platform. Work included:
+2023 – Present | C#, .NET 9, EF Core, PostgreSQL, React, Next.js, TypeScript
 
-* Authentication (custom JWT, roles, impersonation)
-* Complex financial metric engine
-* REST API design and implementation
-* Business logic modeling
-* Admin system with logs, metrics, and system health
-* Integration with TwelveData for prices, fundamentals, and profiles
+Designed, built, and deployed the full stack for a stock analysis and discovery platform. Backend, two frontends, infrastructure, and content pipeline. Live at **stocksignal.me**.
 
----
-
-### **Founder & Lead Developer — ServiceByen.dk (2010–2023)**
-
-Built and operated a full service marketplace used across Denmark. Entire backend architecture designed and implemented in C# / MVC.NET.
-
-Responsibilities included:
-
-* Booking flows, messaging, payments logic, onboarding
-* Worker and homeowner profiles
-* Business rules and real‑world constraints
-* Search systems & SEO structures
-* Admin tools and customer support workflows
-
-ServiceByen.dk was a long‑term production platform that grew directly out of experience gained at Den Blå Avis.
+* Complete layered architecture: Controllers, Facade, BusinessServices, Repositories
+* Large-scale domain system: 480+ signals and 270+ narrative types powering 3,400+ indexed pages
+* 190+ REST endpoints across public and admin APIs with output caching and SEO architecture
+* Custom JWT auth with role-based access and admin impersonation
+* Data pipeline ingesting 104,000+ stocks across global exchanges with autonomous batch coordination and retry logic
+* Integrated external services: Stripe billing, financial data APIs, AI content generation
+* Unit and integration testing with xUnit, Moq, EF InMemory for business rule validation
+* Admin SPA (React + TypeScript) and public site (Next.js with SSR and i18n)
+* Efficient production deployment (Ubuntu, nginx, systemd) with webhook-driven CI/CD and automated backups
 
 ---
 
-### **Backend Developer — Den Blå Avis (eBay Classifieds) (2006–2010)**
+### Founder & Lead Developer — ServiceByen.dk
 
-Worked on the AdManager platform in a **structured 8‑person engineering team** with:
+2010 – 2023 | C#, .NET MVC, SQL Server
 
-* Daily Scrum
-* Sprint planning & complexity estimation
-* Clear division of roles
-* Dedicated DevOps and deployment teams
+Built and operated a service marketplace used across Denmark for over a decade. Full backend architecture designed and maintained solo.
 
-Delivered backend features for a high‑traffic system with strong architecture, dependency injection, object‑oriented modeling, and long‑term maintainability.
-
-**Scrum Master training completed** (1‑day course and internal certification).
+* Booking flows, messaging, payment logic, and user onboarding
+* Search systems, SEO structures, admin tools, customer support workflows
+* Long-term production platform — maintained and evolved over 13 years
 
 ---
 
-### **Backend Developer — DynamicWeb (2004)**
+### Backend Developer — Den Bla Avis (eBay Classifieds)
 
-Worked on backend modules for a .NET‑based CMS/ecommerce system.
+2006 – 2010 | C#, .NET, SQL Server
+
+Backend developer on the AdManager platform in a structured 8-person Scrum team. Daily standups, sprint planning, and close collaboration with other developers including pair programming and shared feature delivery. Strong architecture with dependency injection and OO modeling. Scrum Master training completed.
 
 ---
 
-## Work Preferences
+### Backend Developer — DynamicWeb
 
-* Remote only
-* 20–30 hours per week
-* Backend‑focused role
-* Clear expectations
-* Medium or large engineering teams
-* Minimal context switching
-* Calm environments with defined processes
-* Long‑term collaboration
+2004 | C#, .NET
+
+Backend modules for a .NET-based CMS/ecommerce platform.
+
+---
+
+## Skills
+
+**Backend:** C#, .NET 9, ASP.NET Core, EF Core, REST APIs, PostgreSQL, SQL Server, LINQ, JWT Auth, DDD
+
+**Frontend:** React, TypeScript, Next.js
+
+**Infrastructure:** Linux, nginx, systemd, CI/CD, Git
+
+**Testing:** xUnit, Moq, FluentAssertions
+
+**Collaboration:** Scrum (4 yrs), Agile, Sprint Planning
 
 ---
 
@@ -148,8 +87,10 @@ Worked on backend modules for a .NET‑based CMS/ecommerce system.
 
 ---
 
-## Summary
+## AI-Assisted Development
 
-I build clean, maintainable backend systems with strong architecture and deep understanding of domain logic. I’m looking for a stable, part‑time remote role in a structured engineering team where I can contribute clear, reliable, backend‑focused work without chaotic multi‑role expectations.
+Built through sustained collaboration with Claude (Anthropic). 180+ architecture and philosophy documents serve as scaffolding — defining layer responsibilities, signal semantics, and decision rules — enabling the AI to make structurally coherent decisions across sessions. The documentation is not afterthought; it is the control surface that keeps the system coherent at scale.
 
-If you’re looking for a dependable senior backend developer who thrives in defined, well‑run teams, I’d be happy to discuss how I can contribute.
+---
+
+*Architecture diagram and case study available at stocksignal.me*

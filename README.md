@@ -1,24 +1,25 @@
 # Smallbox — Portfolio
 
-I build modular software and integrations. This repo is the front door: who I am, what I’m focused on, and where to find my work.
-
-## About
-Short bio goes here in 2–3 sentences. Keep it real. Mention the stacks you enjoy and the kind of problems you like to solve.
+Senior backend developer. 15+ years building production systems in C# and .NET.
 
 ## Now
-One or two lines on what you’re building this month. If nothing public, say so.
 
-## Highlights
-Link to things when they exist.
-- Screener → (repo link)
-- Notes → /notes
-- Templates → (repo link)
-- LinkedIn → (profile link)
-- Email → hello.smallbox@proton.me
+Building [StockSignal](https://stocksignal.me) — a stock analysis platform with 190+ REST endpoints, 480+ signal specs, and a data pipeline ingesting 104,000+ stocks across global exchanges.
+
+Building [CleverShares](https://clevershares.com) — a gamified financial literacy platform for young people. Simulated trading, XP progression, family agreements, and structured learning — all verified through a simulation loop that exercises real code paths.
 
 ## CV
-PDF for quick scans: [/cv/CV.pdf](/cv/CV.pdf)  
-Markdown for detail: [/cv/CV.md](/cv/CV.md)
 
-## Case story
-A short write-up that shows your thinking: [/cases/clevershares-storyengine.md](/cases/clevershares-storyengine.md)
+PDF: [/cv/CV.pdf](/cv/CV.pdf)
+Markdown: [/cv/CV.md](/cv/CV.md)
+
+## Case Studies
+
+- [StockSignal](/cases/stocksignal.md) — Full-stack stock analysis platform. Architecture, signal engine, data pipeline, deployment.
+- [CleverShares](/cases/clevershares.md) — Gamified financial literacy platform. Mock-driven domain modeling, simulation-based verification, three-layer AI governance.
+- [Working With Claude](/cases/working-with-claude.md) — How one developer built complex systems through sustained human-AI collaboration.
+
+## Contact
+
+- Email: hello.smallbox@proton.me
+- Website: [stocksignal.me](https://stocksignal.me)

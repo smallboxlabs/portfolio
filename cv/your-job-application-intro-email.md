@@ -2,15 +2,15 @@
 
 Hello,
 
-My name is Jack, and I’m a backend developer with more than a decade of experience building production systems in C# and .NET. I work best in structured, well-defined engineering teams where backend developers can focus deeply on feature development while DevOps and infrastructure are handled by the appropriate specialists.
+My name is Jack. I'm a senior backend developer with 15+ years of experience building production systems in C# and .NET.
 
-My background includes four years at Den Blå Avis (eBay Classifieds), working in a mature Scrum environment with daily standups, sprint planning, estimation, and a clear division of responsibilities. That environment allowed me to focus on delivering clean, maintainable backend logic—exactly the kind of setting where I do my best work.
+I designed and built StockSignal (stocksignal.me) end-to-end — a stock analysis platform with 190+ REST endpoints, 480+ signal specs, and a data pipeline ingesting 104,000+ stocks across global exchanges. The system includes layered backend architecture, two frontends, webhook-driven CI/CD, and autonomous batch processing. It runs live in production today.
 
-More recently, I designed and built the full backend architecture for two platforms: ServiceByen.dk (a service marketplace) and CleverShares (a stock analysis system). I specialize in domain-driven architecture, REST APIs, business logic, and stable long-term system design.
+Before that, I built and ran ServiceByen.dk — a service marketplace that operated across Denmark for 13 years. I also spent four years at Den Bla Avis (eBay Classifieds) as a backend developer in a structured Scrum team on a high-traffic platform.
 
-I’m looking for a remote-first, part-time backend role (20–30 hours/week) in a team with a calm, steady pace. I offer senior-level backend engineering with clear communication, strong ownership, and deep focus.
+I build clean, long-lived backend systems with strong structure and full ownership.
 
-If this aligns with what you’re looking for, I’d be happy to talk.
+I'm looking for a remote backend role (20–40 hours/week). If that fits, I'd be happy to talk.
 
 Best regards,
 Jack Gonchik

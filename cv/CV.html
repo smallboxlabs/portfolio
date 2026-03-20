@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jack Gonchik — Senior Backend Developer</title>
+<style>
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 9pt;
+    line-height: 1.4;
+    color: #2d2d2d;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .page {
+    width: 210mm;
+    height: 297mm;
+    display: flex;
+    overflow: hidden;
+  }
+
+  /* ── LEFT SIDEBAR ── */
+  .sidebar {
+    width: 64mm;
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 12mm 5mm 8mm 5mm;
+    flex-shrink: 0;
+    height: 297mm;
+    overflow: hidden;
+  }
+  .sidebar h2 {
+    font-size: 7.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #94a3b8;
+    margin-bottom: 3mm;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 1.5mm;
+  }
+  .sidebar section {
+    margin-bottom: 4.5mm;
+  }
+  .sidebar a {
+    color: #93c5fd;
+    text-decoration: none;
+  }
+
+  /* Profile photo */
+  .photo-container {
+    text-align: center;
+    margin-bottom: 4mm;
+  }
+  .photo-container img {
+    width: 32mm;
+    height: 32mm;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2.5px solid #475569;
+  }
+  .sidebar-name {
+    text-align: center;
+    font-size: 13pt;
+    font-weight: 700;
+    color: #f1f5f9;
+    margin-bottom: 0.5mm;
+  }
+  .sidebar-title {
+    text-align: center;
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-bottom: 5mm;
+  }
+
+  /* Contact items */
+  .contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 2mm;
+    margin-bottom: 2mm;
+    font-size: 7.5pt;
+    color: #cbd5e1;
+  }
+  .contact-icon {
+    flex-shrink: 0;
+    width: 3.5mm;
+    text-align: center;
+    color: #93c5fd;
+    font-size: 8pt;
+  }
+
+  /* Skill tags */
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2mm;
+  }
+  .skill-tag {
+    background: #334155;
+    color: #e2e8f0;
+    padding: 0.8mm 2mm;
+    border-radius: 1.5mm;
+    font-size: 7pt;
+  }
+
+  /* Language bars */
+  .lang-item {
+    margin-bottom: 2mm;
+  }
+  .lang-name {
+    font-size: 7.5pt;
+    color: #e2e8f0;
+    margin-bottom: 0.5mm;
+  }
+  .lang-bar {
+    height: 1.8mm;
+    background: #334155;
+    border-radius: 1mm;
+    overflow: hidden;
+  }
+  .lang-fill {
+    height: 100%;
+    background: #60a5fa;
+    border-radius: 1mm;
+  }
+
+  /* ── MAIN CONTENT ── */
+  .main {
+    flex: 1;
+    padding: 12mm 9mm 8mm 9mm;
+    height: 297mm;
+    overflow: hidden;
+  }
+  .main h2 {
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1e293b;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 1.5mm;
+    margin-bottom: 3mm;
+    margin-top: 5mm;
+  }
+  .main h3 {
+    font-size: 9.5pt;
+    font-weight: 600;
+    color: #1e3a5f;
+    margin-bottom: 0.5mm;
+  }
+  .role-meta {
+    font-size: 8pt;
+    color: #64748b;
+    margin-bottom: 1.5mm;
+  }
+  .main p {
+    margin-bottom: 1.5mm;
+    text-align: justify;
+  }
+
+  .profile-text {
+    font-size: 9pt;
+    color: #475569;
+    line-height: 1.5;
+    margin-bottom: 1.5mm;
+  }
+  .highlight {
+    color: #1e3a5f;
+    font-weight: 600;
+  }
+
+  .experience-block {
+    margin-bottom: 4mm;
+  }
+
+  /* Compact list for experience */
+  .exp-list {
+    padding-left: 4mm;
+    margin-bottom: 1.5mm;
+  }
+  .exp-list li {
+    font-size: 8.5pt;
+    margin-bottom: 0.5mm;
+    color: #374151;
+  }
+
+  .sub-heading {
+    font-size: 8.5pt;
+    font-weight: 600;
+    color: #475569;
+    margin-top: 1.5mm;
+    margin-bottom: 0.5mm;
+  }
+
+  /* Footer note */
+  .footer-note {
+    margin-top: 4mm;
+    font-size: 7.5pt;
+    color: #94a3b8;
+    font-style: italic;
+  }
+
+  /* Page 2 */
+  .page-break {
+    page-break-before: always;
+  }
+
+  .architecture-section {
+    padding: 14mm 12mm;
+    width: 210mm;
+    height: 297mm;
+  }
+  .architecture-section h2 {
+    font-size: 14pt;
+    color: #1e293b;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 2mm;
+    margin-bottom: 6mm;
+  }
+  .architecture-section p {
+    font-size: 10pt;
+    color: #475569;
+    margin-bottom: 5mm;
+    line-height: 1.6;
+  }
+  .architecture-img {
+    width: 100%;
+    margin-top: 4mm;
+    border: 1px solid #e2e8f0;
+    border-radius: 3mm;
+  }
+
+  .arch-highlights {
+    display: flex;
+    gap: 4mm;
+    margin-top: 8mm;
+    flex-wrap: wrap;
+  }
+  .arch-card {
+    flex: 1;
+    min-width: 50mm;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 2mm;
+    padding: 3.5mm;
+  }
+  .arch-card h4 {
+    font-size: 9pt;
+    color: #1e293b;
+    margin-bottom: 1.5mm;
+  }
+  .arch-card p {
+    font-size: 8pt;
+    color: #64748b;
+    margin-bottom: 0;
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════ PAGE 1 ═══════════════ -->
+<div class="page">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <div class="photo-container">
+      <img src="linkinprofile.jpg" alt="Jack Gonchik">
+    </div>
+    <div class="sidebar-name">Jack Gonchik</div>
+    <div class="sidebar-title">Senior Backend Developer</div>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="contact-item">
+        <span class="contact-icon">@</span>
+        <span>hello.smallbox@proton.me</span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">W</span>
+        <span><a href="https://stocksignal.me">stocksignal.me</a></span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">G</span>
+        <span><a href="https://github.com/smallboxlabs/portfolio">github.com/smallboxlabs/portfolio</a></span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">L</span>
+        <span>Denmark (open to EU)</span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">T</span>
+        <span>20–40 hrs/wk, remote</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Backend</h2>
+      <div class="skill-tags">
+        <span class="skill-tag">C#</span>
+        <span class="skill-tag">.NET 9</span>
+        <span class="skill-tag">ASP.NET Core</span>
+        <span class="skill-tag">EF Core</span>
+        <span class="skill-tag">REST APIs</span>
+        <span class="skill-tag">PostgreSQL</span>
+        <span class="skill-tag">SQL Server</span>
+        <span class="skill-tag">LINQ</span>
+        <span class="skill-tag">JWT Auth</span>
+        <span class="skill-tag">DDD</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Frontend</h2>
+      <div class="skill-tags">
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">TypeScript</span>
+        <span class="skill-tag">Next.js</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Infrastructure</h2>
+      <div class="skill-tags">
+        <span class="skill-tag">Linux</span>
+        <span class="skill-tag">nginx</span>
+        <span class="skill-tag">systemd</span>
+        <span class="skill-tag">CI/CD</span>
+        <span class="skill-tag">Git</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Testing</h2>
+      <div class="skill-tags">
+        <span class="skill-tag">xUnit</span>
+        <span class="skill-tag">Moq</span>
+        <span class="skill-tag">FluentAssertions</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Collaboration</h2>
+      <div class="skill-tags">
+        <span class="skill-tag">Scrum (4 yrs)</span>
+        <span class="skill-tag">Agile</span>
+        <span class="skill-tag">Sprint Planning</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <div class="lang-item">
+        <div class="lang-name">English — fluent</div>
+        <div class="lang-bar"><div class="lang-fill" style="width:95%"></div></div>
+      </div>
+      <div class="lang-item">
+        <div class="lang-name">Danish — fluent</div>
+        <div class="lang-bar"><div class="lang-fill" style="width:95%"></div></div>
+      </div>
+      <div class="lang-item">
+        <div class="lang-name">Polish — conversational</div>
+        <div class="lang-bar"><div class="lang-fill" style="width:60%"></div></div>
+      </div>
+      <div class="lang-item">
+        <div class="lang-name">German — beginner</div>
+        <div class="lang-bar"><div class="lang-fill" style="width:25%"></div></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="main">
+
+    <h2 style="margin-top:0;">Profile</h2>
+    <p class="profile-text">
+      Senior C#/.NET developer with <span class="highlight">15+ years</span> of professional experience delivering production backend systems — from high-traffic classifieds platforms to financial data engines.
+    </p>
+    <p class="profile-text">
+      I deliver stable, maintainable backend systems in structured engineering environments with clear ownership. I focus on clean domain modeling, testable architecture, and long-term system maintainability.
+    </p>
+
+    <h2>Experience</h2>
+
+    <div class="experience-block">
+      <h3>Founder & Lead Engineer — StockSignal / CleverShares</h3>
+      <div class="role-meta">2023 – Present &nbsp;|&nbsp; C#, .NET 9, EF Core, PostgreSQL, React, Next.js, TypeScript</div>
+      <p>Designed, built, and deployed the full stack for a stock analysis and discovery platform. Backend, two frontends, infrastructure, and content pipeline. Live at <span class="highlight">stocksignal.me</span>.</p>
+
+      <ul class="exp-list">
+        <li>Complete layered architecture: Controllers, Facade, BusinessServices, Repositories</li>
+        <li>Large-scale domain system: 480+ signals and 270+ narrative types powering 3,400+ indexed pages</li>
+        <li>190+ REST endpoints across public and admin APIs with output caching and SEO architecture</li>
+        <li>Custom JWT auth with role-based access and admin impersonation</li>
+        <li>Data pipeline ingesting 104,000+ stocks across global exchanges with autonomous batch coordination and retry logic</li>
+        <li>Integrated external services: Stripe billing, financial data APIs, AI content generation</li>
+        <li>Unit and integration testing with xUnit, Moq, EF InMemory for business rule validation</li>
+        <li>Admin SPA (React + TypeScript) and public site (Next.js with SSR and i18n)</li>
+        <li>Efficient production deployment (Ubuntu, nginx, systemd) with webhook-driven CI/CD and automated backups</li>
+      </ul>
+    </div>
+
+    <div class="experience-block">
+      <h3>Founder & Lead Developer — ServiceByen.dk</h3>
+      <div class="role-meta">2010 – 2023 &nbsp;|&nbsp; C#, .NET MVC, SQL Server</div>
+      <p>Built and operated a service marketplace used across Denmark for over a decade. Full backend architecture designed and maintained solo.</p>
+      <ul class="exp-list">
+        <li>Booking flows, messaging, payment logic, and user onboarding</li>
+        <li>Search systems, SEO structures, admin tools, customer support workflows</li>
+        <li>Long-term production platform — maintained and evolved over 13 years</li>
+      </ul>
+    </div>
+
+    <div class="experience-block">
+      <h3>Backend Developer — Den Bla Avis (eBay Classifieds)</h3>
+      <div class="role-meta">2006 – 2010 &nbsp;|&nbsp; C#, .NET, SQL Server</div>
+      <p>Backend developer on the AdManager platform in a structured 8-person Scrum team. Daily standups, sprint planning, and close collaboration with other developers including pair programming and shared feature delivery. Strong architecture with dependency injection and OO modeling. Scrum Master training completed.</p>
+    </div>
+
+    <div class="experience-block">
+      <h3>Backend Developer — DynamicWeb</h3>
+      <div class="role-meta">2004 &nbsp;|&nbsp; C#, .NET</div>
+      <p>Backend modules for a .NET-based CMS/ecommerce platform.</p>
+    </div>
+
+    <p class="footer-note">Architecture diagram and case study on the next page.</p>
+
+  </div>
+</div>
+
+<!-- ═══════════════ PAGE 2 ═══════════════ -->
+<div class="page-break"></div>
+<div class="architecture-section">
+  <h2>System Architecture — StockSignal</h2>
+  <p>
+    This diagram shows the production architecture of StockSignal — a platform I designed and built end-to-end.
+    It reflects the layered separation I apply to backend systems: clean boundaries between API contracts, business logic, domain modeling, and data access.
+    This architecture enables independent evolution of features, reliable data ingestion, and stable production behavior under load.
+  </p>
+
+  <img class="architecture-img" src="architecture.png" alt="StockSignal Architecture Diagram">
+
+  <div class="arch-highlights">
+    <div class="arch-card">
+      <h4>Layered Architecture</h4>
+      <p>Strict separation of concerns — each layer has a single responsibility, enabling maintainability and testability across the entire system.</p>
+    </div>
+    <div class="arch-card">
+      <h4>Signal & Story Engines</h4>
+      <p>Pure interpretation libraries with no persistence or HTTP awareness. 480+ signal specs and 270+ story types, fully isolated and independently testable.</p>
+    </div>
+    <div class="arch-card">
+      <h4>Batch Coordinator</h4>
+      <p>Autonomous data ingestion from external APIs with credit accounting, retry logic, and failure handling. Runs independently of the request-serving API.</p>
+    </div>
+    <div class="arch-card">
+      <h4>Production Deployment</h4>
+      <p>Ubuntu server with nginx reverse proxy, systemd service management, and security sandboxing. Webhook-driven CI/CD with automated PostgreSQL backups.</p>
+    </div>
+  </div>
+
+  <div class="arch-highlights" style="margin-top: 4mm;">
+    <div class="arch-card" style="flex: 1 1 100%;">
+      <h4>AI-Assisted Development</h4>
+      <p>Built through sustained collaboration with Claude (Anthropic). 180+ architecture and philosophy documents serve as scaffolding — defining layer responsibilities, signal semantics, and decision rules — enabling the AI to make structurally coherent decisions across sessions. The documentation is not afterthought; it is the control surface that keeps the system coherent at scale.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
