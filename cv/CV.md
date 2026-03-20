@@ -12,7 +12,9 @@
 
 Senior C#/.NET developer with **15+ years** of professional experience delivering production backend systems — from high-traffic classifieds platforms to financial data engines.
 
-I deliver stable, maintainable backend systems in structured engineering environments with clear ownership. I focus on clean domain modeling, testable architecture, and long-term system maintainability.
+I work as an independent contributor within teams — taking ownership of backend services, delivering reliably, and contributing where it improves system structure and quality. I adapt to team dynamics and focus on low-overhead collaboration rather than process-heavy communication.
+
+Strong focus on clean domain modeling, testable architecture, and long-term maintainability.
 
 ---
 
@@ -52,7 +54,7 @@ Built and operated a service marketplace used across Denmark for over a decade. 
 
 2006 – 2010 | C#, .NET, SQL Server
 
-Backend developer on the AdManager platform in a structured 8-person Scrum team. Daily standups, sprint planning, and close collaboration with other developers including pair programming and shared feature delivery. Strong architecture with dependency injection and OO modeling. Scrum Master training completed.
+Backend developer on the AdManager platform in a structured 8-person Scrum team. Daily standups, sprint planning, and close collaboration with developers in a Scrum team, including pair programming and shared feature ownership. Strong architecture with dependency injection and OO modeling. Scrum Master training completed.
 
 ---
 
